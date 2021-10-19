@@ -1,18 +1,62 @@
 body {
-    text-align: center;
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding: 0;
+    margin: 0;
 }
 
-.header {
+main {
+    width: 80%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin: 0 0;
+}
 
+header {
+    display: inline-block;
+    width: 94%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin: 0 0;
+}
+
+.header__inline {
+    display: inline-block;
 }
 
 .header__logo {
-    width: 150px;
-    height: 100px;
+    margin-top: 10px;
+    width: 100px;
+    height: 75px;
 
+}
+
+.header__site-name {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header__navigation-menu li {
+    display: inline-flex;
+}
+
+.main-section {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.main-section h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-section h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer{
@@ -20,3 +64,4 @@ body {
     padding: 1%;
     text-align: center;
 }
+
